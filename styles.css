@@ -31,7 +31,7 @@ body{
 
 
 
-      /*---------------------------Header---------------------------*/
+      /* /---------------------------Header---------------------------/ */
 
 .header-area{
   padding:25px 0;
@@ -108,7 +108,7 @@ body{
 }
 
 
-/*---------------------------HomePage--------------------------*/
+/* /---------------------------HomePage--------------------------/ */
 
 .FirstElement{
    display:flex;
@@ -167,7 +167,7 @@ profile-photo .img{
 
 
 
- /*---------------------------About---------------------------*/
+ /* /---------------------------About---------------------------/ */
 
 .about-area{
   padding-top: 130px;
@@ -215,7 +215,7 @@ profile-photo .img{
 }
 
 
-/*---------------------------Button---------------------------*/
+/* /---------------------------Button---------------------------/ */
 
 .btn-group{
   margin: 45px 0;
@@ -236,7 +236,7 @@ profile-photo .img{
 }
 
 
-/*---------------------------Education & Internship---------------------------*/
+/* /---------------------------Education & Internship---------------------------/ */
 
 .education-content .row{
   display: flex;
@@ -322,7 +322,7 @@ profile-photo .img{
 
 
 
-/*---------------------------Projects---------------------------*/
+/* /---------------------------Projects---------------------------/ */
 .project-content{
   padding: 90px 0;
   /* color:#fff;  */
@@ -381,7 +381,7 @@ profile-photo .img{
 
 
 
-/*---------------------------Contact Me---------------------------*/
+/* /---------------------------Contact Me---------------------------/ */
 .contact-content{
   padding: 100px 0;
   color: #fff;
@@ -430,7 +430,7 @@ profile-photo .img{
 
 
 
-/*---------------------------Footer---------------------------*/
+/* /---------------------------Footer---------------------------/ */
 .footer {
     max-width: 950px;
     margin: 0 auto;
@@ -455,7 +455,7 @@ profile-photo .img{
 
 
 
- /*------------------- Responsive Design on small screen -------------------*/
+ /* /------------------- Responsive Design on small screen -------------------/ */
 
 /* Medium layout */
 @media only screen and (min-width:1000px) and (max-width:1200px){
@@ -502,6 +502,11 @@ profile-photo .img{
 
   .profile-text{
     width: 350px;
+  }
+  .profile-text h1{
+    width: 350px;
+    line-height: -100px;
+    font-size: 2.0rem;
   }
   .FirstElement .profile-text p{
     text-align: justify;

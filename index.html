@@ -235,10 +235,11 @@
         <p>Get In Touch</p>
       </div>
       <div class="contact">
-        <form name="submitToGoogleSheet">
-          <input type="text" name="NAME" placeholder="Name" required>
-          <input type="email" name="EMAIL" placeholder="Email" required>
-          <input type="text" name="SUBJECT" placeholder="Subject">
+        <form id="form" action="#">
+          <input type="text" name="NAME"  id="name" placeholder="Name" required>
+          <input type="tel" name="NAME"  id="phone" placeholder="phone" required>
+          <input type="email" name="EMAIL" id="email" placeholder="Email" required>
+          <input type="text" name="SUBJECT"  id="subject" placeholder="Subject">
           <textarea name="MESSAGE" placeholder="Message"></textarea>
           <input type="submit" value="Send Message" class="submit">
         </form>
@@ -249,9 +250,14 @@
 
   <!-------------------------- JS -------------------------->
   <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+
     integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
   <script src="script.js"></script>
 
   <!-------------------------- Footer section -------------------------->
