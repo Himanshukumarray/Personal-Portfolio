@@ -165,7 +165,9 @@ profile-photo .img{
   transform: rotate(360deg);
 }
 
-
+.profile-text .social img{
+  size: 10px;
+}
 
  /* /---------------------------About---------------------------/ */
 
