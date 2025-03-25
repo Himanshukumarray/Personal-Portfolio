@@ -356,6 +356,7 @@ profile-photo .img{
     width: 100%;
     position: relative;
     padding: 25px;
+    margin-bottom: 20px;
     text-align: center;
     flex-basis: 32%;
     transition: .3s;
@@ -379,6 +380,21 @@ profile-photo .img{
 }
 .project:hover{
   border-color: #fed700;
+}
+
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-link .project {
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-link .project:hover {
+  transform: scale(1.05);
 }
 
 
